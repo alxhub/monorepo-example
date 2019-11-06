@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../../dist/packages/app",
+    "paths": {
+      "lib": ["./dist/packages/lib/index"]
+    },
+    "traceResolution": true
+  }
+}
